@@ -14,11 +14,9 @@ make install -j12
 
 # Qt link
 In Qt in the pro file (replace <DOWNLOADED_DIR> with your path):
-    ```
-    LIBS += -L<DOWNLOADED_DIR>/ffmpeg/lib/ -lavformat -lavdevice -lavfilter -lavcodec -lavutil -lswresample -lswscale
-
-    INCLUDEPATH += <DOWNLOADED_DIR>/FFmpeg-master/ffmpeg/include
-    DEPENDPATH += <DOWNLOADED_DIR>/FFmpeg-master/ffmpeg/include
-
-    unix|win32: LIBS += -ldxva2 -lMf -lMfplat -lmfuuid -levr -lbcrypt -lstrmiids -lkernel32 -liconv -lquartz -lShLwApi -lGdi32 -lVfw32 -lOle32 -lOleAut32 -lUuid #-lmfplay -lmfreadwrite
-    ```
+```
+LIBS += -L<DOWNLOADED_DIR>/ffmpeg/lib/ -lavformat -lavdevice -lavfilter -lavcodec -lavutil -lswresample -lswscale
+INCLUDEPATH += <DOWNLOADED_DIR>/FFmpeg-master/ffmpeg/include
+DEPENDPATH += <DOWNLOADED_DIR>/FFmpeg-master/ffmpeg/include
+unix|win32: LIBS += -ldxva2 -lMf -lMfplat -lmfuuid -levr -lbcrypt -lstrmiids -lkernel32 -liconv -lquartz -lShLwApi -lGdi32 -lVfw32 -lOle32 -lOleAut32 -lUuid #-lmfplay -lmfreadwrite
+```
