@@ -1,3 +1,6 @@
+# Intro
+How to setup ffmpeg lib for windows (and use them in Qt)
+
 # Setup
 Download a MinGW terminal
 Download FFmpeg from github
