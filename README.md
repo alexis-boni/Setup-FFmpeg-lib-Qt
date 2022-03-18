@@ -2,11 +2,11 @@
 How to setup ffmpeg lib for windows (and use them in Qt)
 
 # Setup
-Download a MinGW terminal
+Download a MinGW terminal \
 Download FFmpeg from github
 
 # Compile and build
-Open a MinGW terminal
+Open a MinGW terminal \
 cd into the FFmpeg folder
 type:
 ```
@@ -27,6 +27,6 @@ unix|win32: LIBS += -ldxva2 -lMf -lMfplat -lmfuuid -levr -lbcrypt -lstrmiids -lk
 ```
 
 # Thanks
-https://ffmpeg.org
-https://www.youtube.com/watch?v=3yhkX0uaQGk
-https://docs.microsoft.com
+https://ffmpeg.org \
+https://www.youtube.com/watch?v=3yhkX0uaQGk \
+https://docs.microsoft.com \
