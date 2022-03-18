@@ -1,5 +1,6 @@
 # Intro
-How to setup ffmpeg libs for windows (and use them in Qt)
+How to setup ffmpeg libs for windows (and use them in Qt) \
+Done with Windows 11.
 
 # Setup
 Download a MinGW terminal \
