@@ -30,4 +30,4 @@ unix|win32: LIBS += -ldxva2 -lMf -lMfplat -lmfuuid -levr -lbcrypt -lstrmiids -lk
 # Other
 https://ffmpeg.org \
 https://www.youtube.com/watch?v=3yhkX0uaQGk \
-https://docs.microsoft.com \
+https://docs.microsoft.com
