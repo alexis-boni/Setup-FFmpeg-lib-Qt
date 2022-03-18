@@ -25,3 +25,8 @@ DEPENDPATH += <DOWNLOADED_DIR>/FFmpeg-master/ffmpeg/include
 
 unix|win32: LIBS += -ldxva2 -lMf -lMfplat -lmfuuid -levr -lbcrypt -lstrmiids -lkernel32 -liconv -lquartz -lShLwApi -lGdi32 -lVfw32 -lOle32 -lOleAut32 -lUuid #-lmfplay -lmfreadwrite
 ```
+
+# Thanks
+https://ffmpeg.org
+https://www.youtube.com/watch?v=3yhkX0uaQGk
+https://docs.microsoft.com
