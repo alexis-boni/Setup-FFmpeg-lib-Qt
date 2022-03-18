@@ -1,5 +1,5 @@
 # Intro
-How to setup ffmpeg lib for windows (and use them in Qt)
+How to setup ffmpeg libs for windows (and use them in Qt)
 
 # Setup
 Download a MinGW terminal \
@@ -26,7 +26,7 @@ DEPENDPATH += <DOWNLOADED_DIR>/FFmpeg-master/ffmpeg/include
 unix|win32: LIBS += -ldxva2 -lMf -lMfplat -lmfuuid -levr -lbcrypt -lstrmiids -lkernel32 -liconv -lquartz -lShLwApi -lGdi32 -lVfw32 -lOle32 -lOleAut32 -lUuid #-lmfplay -lmfreadwrite
 ```
 
-# Thanks
+# Other
 https://ffmpeg.org \
 https://www.youtube.com/watch?v=3yhkX0uaQGk \
 https://docs.microsoft.com \
